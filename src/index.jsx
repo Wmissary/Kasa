@@ -8,6 +8,7 @@ import Lodging from "./pages/Lodging";
 import NotFound from "./pages/NotFound";
 
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 import "./css/style.css";
 
@@ -22,6 +23,7 @@ root.render(
         <Route path="/lodging" element={<Lodging />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </Router>
   </React.StrictMode>,
 );
