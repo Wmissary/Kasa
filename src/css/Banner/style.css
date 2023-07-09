@@ -1,0 +1,27 @@
+.banner {
+  height: 200px;
+  width: 1240px;
+  position: relative;
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: black;
+  margin: 40px auto;
+}
+
+.banner_image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: right;
+  opacity: 70%;
+}
+
+.banner_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  font-weight: 500;
+  color: white;
+}
