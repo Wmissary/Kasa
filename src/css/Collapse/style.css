@@ -1,0 +1,40 @@
+.collapse {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+.collapse_button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.collapse_button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #ff6060;
+  color: white;
+  height: 47px;
+  padding: 20px;
+}
+
+.collapse_text_container {
+  width: 100%;
+  background-color: #f6f6f6;
+}
+
+.collapse_text {
+  color: #ff6060;
+  padding: 20px;
+}

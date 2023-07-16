@@ -7,3 +7,21 @@
 a {
   text-decoration: none;
 }
+
+.card_container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1240px;
+  background-color: #f6f6f6;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-gap: 50px;
+  justify-items: center;
+  padding: 40px 25px;
+}
+
+.about_collapse_container {
+  max-width: 1024px;
+  margin: 0 auto;
+  height: 100%;
+}

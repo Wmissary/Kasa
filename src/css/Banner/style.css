@@ -1,6 +1,6 @@
 .banner {
   height: 200px;
-  width: 1240px;
+  max-width: 1240px;
   position: relative;
   border-radius: 25px;
   overflow: hidden;
