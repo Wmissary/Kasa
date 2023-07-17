@@ -3,6 +3,7 @@ import { Fragment } from "react";
 import data from "../../data/data.json";
 
 import Collapse from "../../components/Collapse";
+import Slideshow from "../../components/Slideshow";
 
 export default function Lodging() {
   const { id } = useParams();
@@ -10,6 +11,7 @@ export default function Lodging() {
   if (!lodging) return <Navigate to="/404" />;
   return (
     <main className="lodging">
+      <Slideshow pictures={lodging.pictures} />
       <div className="lodging_informations">
         <h1>{lodging.title}</h1>
         <h2>{lodging.location}</h2>
