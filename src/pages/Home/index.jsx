@@ -10,8 +10,8 @@ export default function Home() {
     <main className="home">
       <Banner image={banner_home} text="Chez vous, partout et ailleurs" />
       <section className="card_container">
-        {data.map(item => (
-          <Card key={item.id} image={item.cover} text={item.title} />
+        {data.map(lodging => (
+          <Card key={lodging.id} lodging={lodging} />
         ))}
       </section>
     </main>
