@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: 25px;
+  padding: 20px;
 }
 
 .collapse_button,
@@ -31,6 +31,7 @@ input[type="reset"] {
 
 .collapse_text_container {
   width: 100%;
+  min-height: 150px;
   background-color: #f6f6f6;
 }
 
