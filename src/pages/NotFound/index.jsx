@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom";
 
+import "../../css/pages/NotFound/style.css";
+
 export default function PageNotFound() {
   return (
     <main className="notfound">

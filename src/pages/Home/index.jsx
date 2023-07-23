@@ -3,7 +3,7 @@ import banner_home from "../../assets/banner_home.jpg";
 import Card from "../../components/Card";
 import data from "../../data/data.json";
 
-import "../../css/style.css";
+import "../../css/pages/Home/style.css";
 
 export default function Home() {
   return (

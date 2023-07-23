@@ -2,7 +2,7 @@ import { useState } from "react";
 import open_icon from "../../assets/open_icon.svg";
 import close_icon from "../../assets/close_icon.svg";
 
-import "../../css/Collapse/style.css";
+import "../../css/components/Collapse/style.css";
 
 export default function Collapse({ title, text }) {
   const [open, setOpen] = useState(false);

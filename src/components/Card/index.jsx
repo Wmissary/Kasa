@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import "../../css/Card/style.css";
+import "../../css/components/Card/style.css";
 
 export default function Card({ lodging: { id, cover, title } }) {
   return (
