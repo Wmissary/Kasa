@@ -5,6 +5,7 @@ import data from "../../data/data.json";
 import Collapse from "../../components/Collapse";
 import Slideshow from "../../components/Slideshow";
 import Star from "../../components/Star";
+import Tag from "../../components/Tag";
 
 import "../../css/pages/Lodging/style.css";
 
@@ -21,7 +22,7 @@ export default function Lodging() {
           <h2>{lodging.location}</h2>
           <ul className="lodging_tags">
             {lodging.tags.map(tag => (
-              <li key={tag}>{tag}</li>
+              <Tag key={tag} tagText={tag} />
             ))}
           </ul>
         </div>

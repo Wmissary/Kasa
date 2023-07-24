@@ -5,6 +5,11 @@
   align-items: center;
 }
 
+.lodging_tags {
+  display: flex;
+  align-items: center;
+}
+
 .lodging_informations h1 {
   font-size: 36px;
   font-weight: 500;
@@ -15,6 +20,16 @@
   font-size: 18px;
   font-weight: 500;
   color: #ff6060;
+}
+
+.lodging_host_informations {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.lodging_rating {
+  margin-top: 20px;
 }
 
 .lodging_host_informations h3 {
@@ -38,6 +53,15 @@
   margin-bottom: 20px;
 }
 
-.collapse {
+.lodging_collapses .collapse {
   width: 45%;
+}
+
+@media (max-width: 640px) {
+  .lodging_host_informations {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
