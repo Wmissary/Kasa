@@ -4,6 +4,7 @@ import data from "../../data/data.json";
 
 import Collapse from "../../components/Collapse";
 import Slideshow from "../../components/Slideshow";
+import Star from "../../components/Star";
 
 import "../../css/pages/Lodging/style.css";
 
@@ -30,7 +31,9 @@ export default function Lodging() {
             <img src={lodging.host.picture} alt={lodging.host.name} />
           </div>
           <div className="lodging_rating">
-            <span>{lodging.rating}</span>
+            {[...Array(5)].map((_, index) => (
+              <Star key={index} fulfilled={index < lodging.rating} />
+            ))}
           </div>
         </div>
       </div>
