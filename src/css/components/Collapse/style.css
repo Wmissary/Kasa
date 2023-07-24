@@ -31,11 +31,13 @@ input[type="reset"] {
 
 .collapse_text_container {
   width: 100%;
-  min-height: 150px;
+  min-height: 100px;
   background-color: #f6f6f6;
 }
 
 .collapse_text {
   color: #ff6060;
   padding: 20px;
+  font-size: 24px;
+  font-weight: 400;
 }
