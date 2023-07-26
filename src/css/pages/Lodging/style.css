@@ -66,4 +66,14 @@
     align-items: center;
     justify-content: space-between;
   }
+
+  .lodging_collapses {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lodging_collapses .collapse {
+    width: 80%;
+  }
 }
