@@ -16,6 +16,7 @@ input[type="reset"] {
   font: inherit;
   cursor: pointer;
   outline: inherit;
+  border-radius: 10px;
 }
 
 .collapse_button {
